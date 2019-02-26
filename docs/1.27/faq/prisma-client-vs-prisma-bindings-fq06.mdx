@@ -8,7 +8,7 @@ export const meta = {
 
 ## FAQ
 
-The [Prisma client](/prisma-client) and [Prisma bindings]((https://github.com/prisma/prisma-binding)) both provide ways to interact with the Prisma server that sits on top of your database and therefore allow you to read and write data in your database. **It is generally recommended to use the Prisma client.** Prisma bindings can be used for advanced use cases when building GraphQL servers.
+The [Prisma client](/prisma-client) and [Prisma bindings](https://github.com/prisma/prisma-binding) both provide ways to interact with the Prisma server that sits on top of your database and therefore allow you to read and write data in your database. **It is generally recommended to use the Prisma client.** Prisma bindings can be used for advanced use cases when building GraphQL servers.
 
 ## Prisma bindings
 
@@ -23,7 +23,7 @@ The Prisma client is used as a replacement for traditional ORMs and enables you 
 - Auto-generated based on datamodel
 - Full type-safety
 - Simpler and more intuitive API (e.g. the [fluent API for relations](rsc2#relations))
-- Fleixble use cases
+- Flexible use cases
 - Available in various programming languages
 
 The Prisma client is auto-generated using the [`prisma generate`](xcv2) command of the Prisma CLI. The Prisma CLI reads the information from your `prisma.yml` and generates the according Prisma client.
@@ -40,7 +40,7 @@ generate:
     output: ./generated/go
 ```
 
-Running `prisma generate` with this configuration generates three versions of the Prisma client, one in JavaScript, one in TypeScript and one in Go. Note that you typically only generate the Prisma client in one language.
+Running `prisma generate` with this configuration generates three versions of the Prisma client: one in JavaScript, one in TypeScript and one in Go. Note that you typically only generate the Prisma client in one language.
 
 <Info>
 
